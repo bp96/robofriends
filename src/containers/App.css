@@ -1,6 +1,21 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body{
+	height: 100%;
+}
+
+/* hide scroll bars*/
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+#top-section{
+ padding-bottom: 20px;
+}
 
 h1{
 	font-family: 'Roboto';
@@ -8,3 +23,11 @@ h1{
 	color: #FAEDEB;
 	font-weight: bold;
 }
+
+input{
+	min-width: 250px;
+}
+
+input:focus{
+        outline: none;
+    }
